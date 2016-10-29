@@ -1,0 +1,5 @@
+package ifneeded teaspoon            0.1 [list source [file join $dir teaspoon.tcl]]
+package ifneeded teaspoon::handler   0.1 [list source [file join $dir teaspoon/handler.tcl]]
+package ifneeded teaspoon::output    0.1 [list source [file join $dir teaspoon/output.tcl]]
+package ifneeded teaspoon::template  0.1 [list source [file join $dir teaspoon/template.tcl]]
+package ifneeded teaspoon::processor 0.1 [list source [file join $dir teaspoon/processor.tcl]]
